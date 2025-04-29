@@ -217,6 +217,10 @@ Not exactly, the dependencies clash, especially between conda and python (and de
 * Run start_tts_webui.bat or start_tts_webui.sh to start the server. It will ask you to select the GPU/Chip you are using. Once everything has installed, it will start the Gradio server at http://localhost:7770 and the React UI at http://localhost:3000.
 * Output log will be available in the installer_scripts/output.log file.
 * Note: The start script sets up a conda environment and a python virtual environment. Thus you don't need to make a venv before that, and in fact, launching from another venv might break this script.
+```
+chmod +x start_tts_webui.sh
+./start_tts_webui.sh
+```
 
 ### Manual installation (not recommended)
 
